@@ -1,0 +1,612 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0f0f10;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #ffffff;
+    outline: 0;
+}
+/* ----Navigation section---- */
+.nav{
+     display: flex;
+     gap: 60px;
+}
+
+/* ---Header Images---- */
+
+.beatsLogo{
+    position: absolute;
+    top: 50px;
+    left: 280px;
+    cursor: pointer;
+}
+
+/* ---Nav menu list-- */
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    position: absolute;
+    right: 350px;
+    
+}
+.list li a{
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.list li a:hover{
+    text-decoration:underline;
+}
+.list li{
+    list-style: none;
+     margin-top: 50px;
+}
+.list button{
+    padding: 15px 47px;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 40px;
+    border-radius: 12px;
+    color: white;
+    background-color:#1e1e21;
+   
+}
+.list button:hover{
+    box-shadow: 0px 0px 25px rgb(116, 109, 109);
+    cursor: pointer;
+}
+
+/* ---main section --- */
+
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---- mainImages---- */
+
+.mainImage{
+    width: 290px;
+    position: relative;
+    top: -90px;
+    left: -400px;
+    cursor: pointer;
+}
+
+/* ---Beats--- */
+
+.beats{
+    display: flex;
+    flex-direction: column;
+}
+
+.beats img{
+  width: 23vw;
+  position: absolute;
+  left: 850px;
+  top: 180px;
+}
+
+/* ---Beats heading--- */
+.beats h1{
+    position: absolute;
+    left: 800px;
+    top: 280px;
+    font-size: 70px;
+    font-weight: 1200;
+}
+
+/* ---beats heading (h4)--- */
+.beats h4{
+    position: absolute;
+    left: 800px;
+    top: 390px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+/* ----beats paragraph--- */
+.beats p{
+    position: absolute;
+    left: 800px;
+    top: 450px ;
+    font-size: 18px;
+    font-weight: lighter;
+    width: 29vw;
+    line-height: 2;
+}
+
+/* ---Add t0 bag button--- */
+.shopping-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+}
+
+.shopping-section button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 600px;
+    left: 800px ;
+    padding: 18px 30px;
+    border-radius: 10px;
+    background-color: #1e1e21;
+    gap: 20px;
+    font-size: 15px;
+    border: transparent;
+}
+
+.shopping-section h4{
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #1e1e21;
+}
+.shopping-section img{
+    width: 1vw;
+    background-color: #1e1e21;
+    
+}
+.shopping-section button:hover{
+    cursor: pointer;
+   box-shadow: 0px 0px 25px rgb(116, 109, 109) ;
+   transform: scale(1.25);
+}
+
+/* ---online sites--- */
+
+.online-platform{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 170px;
+}
+ .online-platform li{
+    list-style: none;
+    margin-top: 130px;
+ }
+
+ /* .marqueee{
+   
+    animation: marquee 10s linear infinite;
+   
+}
+@keyframes marquee{
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+} */
+
+.Specification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ /* ---specs logo img-- */
+ 
+ .specsLogo{
+     width: 13vw;
+     margin-top: 90px;
+ }
+
+ /* --specification-list--- */
+
+.specification-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+   margin-top: 60px;
+}
+
+/*---Targetting list of specification part--- */
+
+/* ---Bluetooth--- */
+
+.connection{
+    position: relative;
+    top: -30px;
+}
+.connection img ,h3 ,p{
+    margin-bottom: 1px;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.connection p{
+    margin-bottom: 25px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+/* ---Battery---- */
+.battery{
+    position: relative;
+    top: -27px;
+    left: -26px;
+}
+.battery img , h3{
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.battery p{
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+/* --Charging--- */
+.load{
+    position: relative;
+    left: -26px;
+}
+.load img , h3 {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.load p{
+    margin-bottom: 28px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
+/* ----Microphone--- */
+.microphone{
+    position: relative;
+    left: -1%;
+    top: -1px;
+   width: 7vw;
+   margin-left: 22px;
+   
+}
+.microphone img , h3 , p{
+    margin-bottom: 10px;
+}
+.microphone p{
+    margin-bottom: 28px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+/* ---Case--- */
+.case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* ---case  section--- */
+.Case-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 70px;
+    line-height: 2;
+    font-weight: lighter;
+    font-size: 17px;
+  
+}
+/* ---case paragraph-- */
+.case-para{
+    width: 20%;
+    font-weight: lighter;
+}
+/* ---more info para--- */
+.case-para p{
+    margin-bottom: 30px;
+}
+/* ---more info btn--- */
+.MoreInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    padding: 15px 25px;
+   border-radius: 8px;
+   border: transparent;
+   background-color: #1e1e21;
+   font-size: 16px; 
+}
+.MoreInfo img{
+    background-color: #1e1e21;
+}
+.MoreInfo:hover{
+    cursor:pointer;
+    transform: scale(1.25);
+    box-shadow: 0px 0px 25px rgb(116, 109, 109) ;
+}
+
+.buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    gap: 50px;
+    background-color: #181a1b;
+    padding: 50px 0px;
+    border-radius: 8px; 
+    width: 70%;
+    margin-left: 270px;
+}
+.BuyPara{
+    width: 18vw;
+    background-color: transparent;
+}
+.BuyPara h3{
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.BuyPara p{
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+/* ---Buy Button-- */
+.BuyBtn{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: fit-content;  
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: transparent;
+    background-color: black;
+    font-size: 16px;
+}
+.BuyBtn img{
+    background-color:black;
+}
+.BuyBtn:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    box-shadow: 0px 0px 25px rgb(116, 109, 109) ;
+}
+img[alt="buyNowSectionImage"]{
+    width: 24vw;
+    background-color: transparent;
+}
+
+/* -------------product section Logo---------------- */
+.product-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+}
+img[alt="productLogo"]{
+    width: 15vw;
+}
+
+/* ----Items available--- */
+
+.product-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-top: 100px;
+    align-content: center;
+    justify-items: center;
+}
+
+.product-card{
+    background-color: #181a1b;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.product-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between; 
+}
+.product-info p{
+    background-color: transparent;
+    margin-top: 38px;
+    font-size: 15px;
+    position: relative;
+    top: -90px;
+    bottom: 0px;
+    left: 15px;
+    line-height: 1.5;
+}
+.product-info span{
+    background-color: transparent;
+    color: #bdc0c2;
+}
+/* --black headphones-- */
+img[alt = "black"]{
+    background-color: transparent;
+    width: 6vw;
+    scale: 0.7;
+    position: relative;
+    top: -60px;
+    left: 13px;
+    bottom: 0px;
+}
+/* ---Shooping Bag--- */
+.shoppingBag{
+    position: relative;
+    top: -110px;
+    right: 15px;
+    background-color: black;
+    padding: 2px 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ---blue headphones--- */
+img[alt="blue"]{
+    background-color: transparent;
+    width: 6vw;
+    scale: 0.7;
+    position: relative;
+    top: -80px;
+    left: 15px; 
+    margin-top: 22px;
+}
+/* ---RedBlack headphone---- */
+img[alt="redBlack"]{
+    background-color: transparent;
+    width: 6vw;
+    scale: 0.7;
+    position: relative;
+    top: -65px;  
+    left: 15px;
+    
+}
+/* -----nightBlack Headphone---- */
+img[alt="nightBlack"]{
+    background-color: transparent;
+    width: 6vw;
+    scale: 0.7;
+    position: relative;
+    top: -65px;
+    left: 15px; 
+}
+/* -----twilightGray Headphone--- */
+img[alt="twilightGray"]{
+    background-color: transparent;
+    width: 6vw;
+    scale: 0.7;
+    position: relative;
+    top: -80px; 
+    left: 15px;
+    margin-top: 22px;
+}
+
+/* ----Footer section--- */
+
+.footerBeats{
+    position: absolute;
+    left: 390px;
+     margin-top: 100px;
+    cursor: pointer;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ---Product-list-- */
+.Product-list{
+    display: flex;
+    flex-direction: column;
+     margin-left: 12%;
+    margin-top: 120px;
+    cursor: pointer;
+}
+.Product-list li{
+    list-style: none;
+    line-height: 2;
+    color: #bdc0c2;
+}
+#Products{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+/* ---Support list--- */
+.Support-list{
+    display: flex;
+    flex-direction: column;
+     margin-left: 12%;
+    margin-top: 120px;
+    cursor: pointer;
+}
+.Support-list li{
+    list-style: none;
+    line-height: 2;
+    color: #bdc0c2;
+}
+#Support{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .footer-subscription{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100%;
+    margin-top: 30%;
+}
+.footer-subscription input{
+  border-radius: 10px;
+  padding: 22px 22px;
+  font-size: 15px;
+  background-color: #181a1b;
+  border: transparent;
+}
+.footer-subscription input:hover{
+    background-color: #181a1b;
+}
+
+.subscribe-btn{
+    background-color: black;
+    border-radius:10px ;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    left: 1150px;
+    margin-top: 8px;
+    font-size: 15px;
+    padding: 15px 25px;
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+img[alt="rightArrow"]{
+    width: 1vw;
+}
+/* 
+.email{
+    display: flex;
+    padding: 10px 20px;
+}  */
+.social-media{
+    display: flex;
+    margin-top: 30px;
+    gap: 25px;
+    margin-left: 55%;
+    
+}
+img[alt="upArrow"]{
+    width: 2vw;
+    height: 4vh;
+    margin-left: 30%;
+    margin-top: 2%;
+}
